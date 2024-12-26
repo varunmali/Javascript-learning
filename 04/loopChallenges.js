@@ -52,3 +52,33 @@ let k = 1;
 do {
   total += k;
 } while (k <= 3);
+
+/*
+5. Write a 'for' loop that multiplies each element in the array '[2,4,6]'
+by 2 and stores the results in a new array named 'multipliedNumbers'.
+*/
+
+let multipliedNumbers = [];
+let numbers = [2, 4, 6];
+
+//for (initPhase; condition; incre / decre) {}
+
+for (let l = 0; l < numbers.length; l++) {
+  //   takenumbers = numbers[l] * 2;
+  //   multipliedNumbers.push(takenumbers);
+  multipliedNumbers.push(numbers[l] * 2);
+}
+//console.log(multipliedNumbers);
+
+/*
+6. Write a 'for' loop that lists all the cities in the array ''["paris", "New York", "Tokyo", "London"]' and stores each city in a new array named 'cityList'.
+*/
+
+let city = ["paris", "New York", "Tokyo", "London"];
+let cityList = [];
+
+for (let y = 0; y < city.length; y++) {
+  cityList.push(city[y]);
+}
+
+//console.log(cityList);
