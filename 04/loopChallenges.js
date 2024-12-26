@@ -24,4 +24,31 @@ while (j > 0) {
   countdown.push(j);
   j--;
 }
-console.log(countdown);
+//console.log(countdown);
+
+/*
+3. Write a 'do while' loop that prompts a user to enter their favorite tea type enter "stop".
+ Store each tea type in array named 'teaCollection'.
+*/
+
+let teaCollection = [];
+let tea;
+
+do {
+  tea = prompt(`Enter your favourite tea (type = "stop" to finish)`);
+
+  if (tea !== "stop") {
+    teaCollection.push(tea);
+  }
+} while (tea !== "stop");
+
+/* 
+4. Write a 'do while' loop that adds numbers from 1 to 3 and store the result in variable named 'total'.
+ */
+
+let total = 0;
+let k = 1;
+
+do {
+  total += k;
+} while (k <= 3);
